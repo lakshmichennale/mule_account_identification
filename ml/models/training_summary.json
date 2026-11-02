@@ -1,0 +1,93 @@
+{
+  "best_model": "xgboost",
+  "metrics": {
+    "random_forest": {
+      "precision": 0.8462,
+      "recall": 0.6875,
+      "f1": 0.7586,
+      "roc_auc": 0.9962,
+      "pr_auc": 0.8265,
+      "confusion_matrix": [
+        [
+          1799,
+          2
+        ],
+        [
+          5,
+          11
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "precision": 0.0577,
+      "recall": 0.9375,
+      "f1": 0.1087,
+      "roc_auc": 0.8969,
+      "pr_auc": 0.0476,
+      "confusion_matrix": [
+        [
+          1556,
+          245
+        ],
+        [
+          1,
+          15
+        ]
+      ]
+    },
+    "isolation_forest": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.1871,
+      "pr_auc": 0.0053,
+      "confusion_matrix": [
+        [
+          1782,
+          19
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    },
+    "xgboost": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1801,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "lightgbm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1801,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    }
+  },
+  "train_size": 7265,
+  "test_size": 1817,
+  "fraud_ratio": 0.009028
+}
