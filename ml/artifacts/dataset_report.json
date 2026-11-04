@@ -79,20 +79,22 @@
   "avg_transaction_amount": 612.3871393966086,
   "metadata_columns": {
     "F2230": "reporting_month",
-    "F3886": "account_type",
-    "F3887": "account_id",
-    "F3888": "transaction_date",
-    "F3889": "activity_window",
-    "F3890": "transaction_type",
+    "F3886": "product_name",
+    "F3887": "tenure_months",
+    "F3888": "account_open_date",
+    "F3889": "vintage_bucket",
+    "F3890": "area_category",
     "F3891": "occupation",
     "F3892": "gender",
-    "F3893": "merchant_category",
+    "F3893": "segmentation_class",
     "F3894": "customer_age",
-    "F3895": "transaction_amount",
-    "F3896": "balance_amount",
-    "F3897": "behavior_count_1",
-    "F3898": "behavior_count_2",
-    "F3899": "behavior_count_3"
+    "F3895": "min_incident_score",
+    "F3896": "max_incident_score",
+    "F3897": "count_incident_gt650",
+    "F3898": "min_resolve_days",
+    "F3899": "max_resolve_days",
+    "F3799": "total_amount_31d",
+    "F1813": "digital_amount_31d"
   },
   "limitations": [
     "No sender/receiver pairs \u2014 network graph uses account co-activity.",
@@ -103,7 +105,6 @@
     "dropped_high_missing": 361,
     "dropped_constant": 64,
     "categorical_encoded": [
-      "F2230",
       "F3886",
       "F3888",
       "F3889",
@@ -112,7 +113,7 @@
       "F3892",
       "F3893"
     ],
-    "numeric_median_imputed": 3562,
+    "numeric_median_imputed": 3558,
     "derived_features_added": [
       "derived_amount_balance_ratio",
       "derived_behavior_sum",
@@ -124,6 +125,6 @@
       "derived_txn_day",
       "derived_amount_per_age"
     ],
-    "final_feature_count": 3570
+    "final_feature_count": 3565
   }
 }

@@ -11,23 +11,23 @@ venv/
 
 # IDE
 .idea/
+.vscode/
 
 # System files
 .DS_Store
 Thumbs.db
-# Windows shortcuts
 *.lnk
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.tsbuildinfo
 
-# Environment files
-.env
-.env.*
-!.env.example
+# SQLite databases
+*.db
+*.sqlite3
+
 # Large datasets
 compressed_data.csv
-git
